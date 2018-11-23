@@ -4,7 +4,11 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
-
+<style>
+.home{
+ text-align:center;
+}
+</style>
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
